@@ -30,8 +30,8 @@ pages:
   only:
     - master # Only run on master branch
 
-  Test:
-   stage: test
-   script:
-     - npm install
-     - npm run test
+test:
+  stage: test
+  script:
+    - npm install
+    - npm run test
