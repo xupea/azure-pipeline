@@ -1,5 +1,6 @@
 1. 解决Permission Denied
 
+```yml
 deploy_Staging:
   stage: deploy
   script: 
@@ -10,3 +11,4 @@ deploy_Staging:
   environment:
     name: Staging
     url: https://Staging.app.net
+ ```
